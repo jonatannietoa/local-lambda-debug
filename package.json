@@ -10,8 +10,8 @@
 		"url": "git://github.com/"
 	},
 	"scripts": {
-		"start": "./node_modules/.bin/serverless offline -s dev",
-		"debug": "export SLS_DEBUG=* && node --debug ./node_modules/.bin/serverless offline -s dev",
+		"start": "%USERPROFILE%\\AppData\\Roaming\\npm\\node_modules\\serverless\\bin\\serverless offline -s dev",
+		"debug": "SET SLS_DEBUG=* && node --debug %USERPROFILE%\\AppData\\Roaming\\npm\\node_modules\\serverless\\bin\\serverless offline -s dev",
 		"test": "mocha"
 	},
 	"dependencies": {},
